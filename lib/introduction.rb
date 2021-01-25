@@ -10,8 +10,9 @@ end
 def introduction_with_language_optional (name, language)
   language="Ruby"
   puts "Hi, my name is #{name} and I am learning to program in #{language}."
-  
-  introduction_with_language_optional(name)
+end 
+
+introduction_with_language_optional(name)
 
 
 
